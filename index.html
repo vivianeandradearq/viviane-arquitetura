@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Viviane Andrade Arquitetura de Interiores</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Montserrat', sans-serif;
+      color: #333;
+      background-color: #f9f7f4;
+    }
+
+    header {
+      background: url('https://images.unsplash.com/photo-1600585154340-be6161a56a0c') center/cover no-repeat;
+      height: 90vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      color: white;
+      padding: 20px;
+    }
+
+    header h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: 48px;
+      margin-bottom: 10px;
+    }
+
+    header p {
+      font-size: 20px;
+      max-width: 600px;
+    }
+
+    section {
+      padding: 60px 20px;
+      max-width: 1100px;
+      margin: auto;
+    }
+
+    h2 {
+      font-family: 'Playfair Display', serif;
+      font-size: 32px;
+      margin-bottom: 20px;
+      text-align: center;
+    }
+
+    .sobre p {
+      text-align: center;
+      max-width: 800px;
+      margin: auto;
+      line-height: 1.8;
+    }
+
+    .servicos, .portfolio, .diferenciais {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 30px;
+      margin-top: 40px;
+    }
+
+    .card {
+      background: white;
+      padding: 25px;
+      border-radius: 8px;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+      text-align: center;
+    }
+
+    .portfolio img {
+      width: 100%;
+      border-radius: 8px;
+    }
+
+    .depoimentos {
+      background-color: #eee6df;
+      padding: 60px 20px;
+    }
+
+    .depoimentos blockquote {
+      max-width: 700px;
+      margin: 20px auto;
+      font-style: italic;
+      text-align: center;
+    }
+
+    .contato {
+      text-align: center;
+    }
+
+    .botoes-contato {
+      margin-top: 20px;
+    }
+
+    .botao {
+      display: inline-block;
+      margin: 10px;
+      padding: 15px 30px;
+      background-color: #8a6d5a;
+      color: white;
+      text-decoration: none;
+      border-radius: 30px;
+      font-weight: 600;
+    }
+
+    .instagram {
+      background-color: #c13584;
+    }
+
+    .endereco {
+      margin-top: 25px;
+      font-size: 15px;
+      line-height: 1.6;
+    }
+
+    footer {
+      text-align: center;
+      padding: 30px;
+      font-size: 14px;
+      background-color: #ddd2c8;
+    }
+
+    iframe {
+      margin-top: 30px;
+      border-radius: 8px;
+      width: 100%;
+      height: 300px;
+      border: 0;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div>
+    <h1>Viviane Andrade</h1>
+    <p>Arquitetura de Interiores que transforma espaços em experiências únicas, funcionais e sofisticadas.</p>
+  </div>
+</header>
+
+<section class="sobre">
+  <h2>Sobre o Escritório</h2>
+  <p>
+    A Viviane Andrade Arquitetura de Interiores é especializada em projetos personalizados que unem estética, conforto e funcionalidade. Cada ambiente é pensado para refletir a identidade do cliente, criando espaços elegantes, acolhedores e sob medida.
+  </p>
+</section>
+
+<section>
+  <h2>Serviços</h2>
+  <div class="servicos">
+    <div class="card">Projetos de Interiores Residenciais</div>
+    <div class="card">Projetos Comerciais</div>
+    <div class="card">Móveis Planejados</div>
+    <div class="card">Consultoria de Decoração</div>
+  </div>
+</section>
+
+<section>
+  <h2>Portfólio</h2>
+  <div class="portfolio">
+    <img src="https://images.unsplash.com/photo-1615873968403-89e068629265">
+    <img src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c">
+    <img src="https://images.unsplash.com/photo-1600210492486-724fe5c67fb3">
+  </div>
+</section>
+
+<section>
+  <h2>Diferenciais</h2>
+  <div class="diferenciais">
+    <div class="card">Atendimento personalizado</div>
+    <div class="card">Projetos 3D realistas</div>
+    <div class="card">Acompanhamento de obra</div>
+    <div class="card">Soluções sob medida</div>
+  </div>
+</section>
+
+<section class="depoimentos">
+  <h2>Depoimentos</h2>
+  <blockquote>"A Viviane transformou completamente nosso apartamento. Ficou sofisticado e muito funcional!"</blockquote>
+  <blockquote>"Profissional incrível, atenciosa e extremamente detalhista."</blockquote>
+</section>
+
+<section class="contato">
+  <h2>Vamos transformar seu espaço?</h2>
+  <p>Entre em contato e solicite seu orçamento.</p>
+
+  <div class="botoes-contato">
+    <a class="botao" href="https://wa.me/5511911380612" target="_blank">WhatsApp</a>
+    <a class="botao instagram" href="https://instagram.com/vivianeandrade.arquitetura" target="_blank">Instagram</a>
+  </div>
+
+  <div class="endereco">
+    📍 Avenida Lauro Gomes, 111<br>
+    Rudge Ramos – São Bernardo do Campo – SP<br>
+    CEP 09635-010
+  </div>
+
+  <iframe src="https://www.google.com/maps?q=Avenida+Lauro+Gomes,+111,+São+Bernardo+do+Campo&output=embed"></iframe>
+</section>
+
+<footer>
+  © 2026 Viviane Andrade Arquitetura de Interiores • São Bernardo do Campo – SP
+</footer>
+
+</body>
+</html>
